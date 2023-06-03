@@ -2,6 +2,92 @@ body{
  
     font-family: 'Baloo Paaji 2', cursive;
     font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.block-container{
+    width: 90%;
+    margin: 15px 0;
+}
+
+img, div, section, li{
+    display: inline-block;
+}
+
+header div li{
+    width: 25%;
+    margin: 0 3%;
+}
+
+.logo {
+    margin: 1em;
+}
+
+.welcome-container img{
+
+    height: 400px;
+}
+
+h1{
+    font-family: 'Baloo Paaji 2';
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+.welcome-container h1{
+    font-size: 40px;
+    margin: 1em 2em;
+}
+
+h2{
+    font-family: 'Baloo Paaji 2';
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.welcome-container, .menu-container {
+    width: 40%;
+    vertical-align: top;
+}
+
+.menu-container li{
+    width: 40%;
+    padding: 2%;
+}
+
+#game1{
+    background: #ffa600;
+}
+
+#game2{
+    background: #33a97f;
+}
+
+#game3{
+    background: #f8688d;
+}
+
+#game4{
+    background: #4dbbc5;
+}
+
+li .child {
+    width: 30%;
+    height: 200px;
+}
+
+.garden-element{
+    width: 8%;
+    max-height: 60px;
+}
+
+#logo-vertical{
+    display: none;
+}
+
+p {
+    font-size: 20px;
+    vertical-align: top;
 }
 
 @media screen and (min-width: 821px) and (max-width: 1024px){ /*❚❚❚❚❚❚❚❚❚❚❚❚❚❚ HALF DESKTOP ❚❚❚❚❚❚❚❚❚❚❚❚❚❚*/
