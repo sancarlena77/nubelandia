@@ -6,11 +6,15 @@ body{
 }
 
 .block-container{
-    width: 90%;
-    margin: 15px 0;
+    padding: 20px 0 0;
+    width: 100%;
 }
 
-img, div, section, li{
+header .block-container{
+    background: #e6e6c5;
+}
+
+img, div, section, li, h2{
     display: inline-block;
 }
 
@@ -19,13 +23,26 @@ header div li{
     margin: 0 3%;
 }
 
+header img{
+    width: 30%;
+}
+
 .logo {
     margin: 1em;
 }
 
-.welcome-container img{
+main .block-container{
+    background: linear-gradient(#e6e6c5, #ffffff)
+}
 
-    height: 400px;
+.welcome-container, .menu-container {
+    width: 45%;
+    vertical-align: top;
+}
+
+.welcome-container .child{
+    width: 60%;
+    max-height: 400px;
 }
 
 h1{
@@ -35,24 +52,22 @@ h1{
 }
 
 .welcome-container h1{
-    font-size: 40px;
-    margin: 1em 2em;
+    font-size: 30px;
+    margin: 1em 1em 0;
 }
 
 h2{
     font-family: 'Baloo Paaji 2';
     font-weight: 400;
     font-size: 40px;
-}
-
-.welcome-container, .menu-container {
-    width: 40%;
-    vertical-align: top;
+    margin: 0 auto 10px;
+    transition: 1s;
 }
 
 .menu-container li{
     width: 40%;
     padding: 2%;
+    border: none;
 }
 
 #game1{
@@ -73,12 +88,40 @@ h2{
 
 li .child {
     width: 30%;
-    height: 200px;
+    height: 180px;
+    transition: 1s;
+}
+
+li .child:hover, h2:hover, .followme-container img:hover, #logo-horizontal:hover{
+    transform: scale(1.5);
+}
+
+footer .block-container{
+    background: white;
+}
+
+.garden-container{
+    display: block;
+    margin: 10px 0 0 0;
 }
 
 .garden-element{
     width: 8%;
-    max-height: 60px;
+    max-height: 40px;
+}
+
+.developer-container{
+    width: 40%;
+    vertical-align: top;
+}
+
+.developer {
+    vertical-align: top;
+}
+
+#logo-horizontal{
+    width: 150px;
+    transition: 1s;
 }
 
 #logo-vertical{
@@ -87,7 +130,23 @@ li .child {
 
 p {
     font-size: 20px;
+    margin: 1em 0;
+}
+
+.followme-container{
+    width: 40%;
     vertical-align: top;
+}
+
+.followme-container .copyright, .followme-container .links-socialmedia{
+    display:inline-block;
+    margin: 0 1em;
+}
+
+.followme-container img{
+    width: 50px;
+    margin: 1em 5px 0;
+    transition: 1s;
 }
 
 @media screen and (min-width: 821px) and (max-width: 1024px){ /*❚❚❚❚❚❚❚❚❚❚❚❚❚❚ HALF DESKTOP ❚❚❚❚❚❚❚❚❚❚❚❚❚❚*/
